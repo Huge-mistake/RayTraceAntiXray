@@ -18,6 +18,7 @@ repositories {
 dependencies {
     //paperweight.foliaDevBundle("26.1.2.build.8-stable")
     paperweight.paperDevBundle("26.3.build.211-stable")
+    implementation("net.kyori:adventure-text-serializer-ansi:4.26.1")
 }
 
 java {
